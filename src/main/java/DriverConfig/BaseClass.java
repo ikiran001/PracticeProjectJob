@@ -8,6 +8,8 @@ import java.time.Duration;
 import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.mail.Email;
+import org.apache.commons.mail.EmailException;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -15,6 +17,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -53,7 +56,9 @@ public class BaseClass {
 	}
 
 	@AfterTest
-	public void teardown() { /* TODO document why this method is empty */ }
+	public void teardown() { 
+		
+		}
 
 	public static String getTodaysDate() {
 		DateFormat dateFormat = new SimpleDateFormat("dd-MMM-yyyy");
@@ -82,7 +87,7 @@ public class BaseClass {
 
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
-		File target = new File("/Screenshots/" + folder + "/" + getTodaysDate() + "/"  //System.getProperty("user.dir") + 
+		File target = new File("/Screenshots/" + folder +"/" + getTodaysDate()  //System.getProperty("user.dir") + 
 				 + "_" + getCurrentTime() + ".png");
 		try {
 			FileUtils.copyFile(source, target);
@@ -92,6 +97,7 @@ public class BaseClass {
 		log.info("Screenshot taken for test case name " + folder);
 		return target.getAbsolutePath();
 	}
+	
 
 
 }
