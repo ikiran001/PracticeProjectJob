@@ -7,6 +7,7 @@ import DriverConfig.BaseClass;
 import DriverConfig.FrameworkConstants;
 import POM.ForHirist;
 import Utilities.ReadConfig;
+import net.bytebuddy.build.Plugin.Factory.UsingReflection.Priority;
 
 public class Hirist extends BaseClass{
 	ForHirist  fh=new ForHirist();
@@ -21,14 +22,25 @@ public class Hirist extends BaseClass{
 		fh.sendInPassword(FrameworkConstants.getPass());
 		fh.clickOnLogin();
 		fh.clickOnIcon();
-		fh.clickOnSearchTab(FrameworkConstants.getAutomationtestengineer());
+		fh.clickOnSearchTab(FrameworkConstants.getTestengineer());
+		fh.clickOnExp();
+		fh.clickOnLocation();
+		fh.clickPostingCol();
 		fh.sendInBigSearchIcon();
 		fh.selectFromList();
 		fh.clickOnApplyAll();
-		
+	}
+	
+	@Test
+	public void applyOnHirist1() throws Exception  {
 
-
-
-
+		fh.clickOnIcon();
+		fh.clickOnSearchTab(FrameworkConstants.getAutomationtestengineer());
+		fh.clickOnExp();
+		fh.clickOnLocation();
+		fh.clickPostingCol();
+		fh.sendInBigSearchIcon();
+		fh.selectFromList();
+		fh.clickOnApplyAll();
 	}
 }

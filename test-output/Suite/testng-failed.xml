@@ -7,13 +7,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="JobPortals.Hirist">
+      <class name="JobPortals.Naukri">
         <methods>
+          <include name="applyOnNaukri"/>
           <include name="setup"/>
-          <include name="applyOnHirist"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- JobPortals.Hirist -->
+      </class> <!-- JobPortals.Naukri -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

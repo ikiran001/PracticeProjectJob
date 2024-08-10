@@ -55,9 +55,9 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	}
 
-	@AfterTest
+	@AfterClass
 	public void teardown() { 
-		
+		driver.quit();
 		}
 
 	public static String getTodaysDate() {

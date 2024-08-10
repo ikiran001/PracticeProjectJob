@@ -12,7 +12,8 @@
   <parameter name="browser" value="chrome"></parameter>
   
   <classes>
-         <class name="JobPortals.Hirist"/>
+         <class name="JobPortals.Hirist"/>   
+         <class name="JobPortals.Naukri"/> 
      </classes>
   </test> <!-- Test -->
   
