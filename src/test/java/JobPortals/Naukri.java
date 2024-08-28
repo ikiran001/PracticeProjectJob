@@ -26,26 +26,7 @@ public class Naukri extends BaseClass{
 		fn.clickOnApply();
 
 		
-		System.out.println("code chamge in master branch");
 
-
-		
-		System.out.println("code change in Local branch 0.1");
-		
-		
-		System.out.println("code change in Kiran");
-
-		System.out.println("code change in Kiran change 2");
-		
-		System.out.println("code changes in branch name kiran02");
-
-		System.out.println("code changes in branch name kiran034");
-
-
-		System.out.println("code changes in branch name kiran0345");
-
-
-		System.out.println("code changes in branch name kiran0345");
 	}
 	
 	
