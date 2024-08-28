@@ -7,7 +7,6 @@ import DriverConfig.BaseClass;
 import DriverConfig.FrameworkConstants;
 import POM.ForHirist;
 import Utilities.ReadConfig;
-import net.bytebuddy.build.Plugin.Factory.UsingReflection.Priority;
 
 public class Hirist extends BaseClass{
 	ForHirist  fh=new ForHirist();

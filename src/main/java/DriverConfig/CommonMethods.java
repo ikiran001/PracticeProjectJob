@@ -44,9 +44,24 @@ public class CommonMethods extends BaseClass {
 	}
 
 	public static void scrollDown(int value) {
+		
 		je=(JavascriptExecutor)driver;
 		je.executeScript("window.scrollBy(0,"+value+")", "");
 
+	}
+	
+	public static void scrollUp() {
+	
+		try {
+			
+			je=(JavascriptExecutor)driver;
+			
+			//je.executeScript("window.scrollBy("+value+",0)", "");
+			je.executeScript("window.scrollTo(0, 0)", "");
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 	}
 	
 

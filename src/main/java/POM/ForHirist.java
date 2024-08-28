@@ -22,7 +22,7 @@ public class ForHirist extends CommonMethods{
 	By location=By.xpath("(//a[contains(text(),'Any Location')])[1]");
 	By selectyoE=By.xpath("(//li[contains(text(),'1 - 3 yrs')])[1]");
 	By selectLocation=By.xpath("//label[text()='Metros']");
-	By postPeriod=By.xpath("(//li[contains(text(),'Two Weeks')])[1]");
+	By postPeriod=By.xpath("(//li[contains(text(),'Last Month')])[1]");
 	By postingCol=By.xpath("(//a[contains(text(),'Last 3 Months')])[1]");
 	
 	
@@ -79,6 +79,9 @@ public class ForHirist extends CommonMethods{
 	
 	public void sendInBigSearchIcon() {
 		clickMethod(driver, bigSeacrhIcon, folderName," Big Search Icon");
+		scrollDown(8000);
+		
+		scrollUp();
 
 	}
 	

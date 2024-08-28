@@ -26,6 +26,7 @@ public class TestListener extends TestListenerAdapter {
 
 	@Override
 	public void onTestStart(ITestResult result) {
+		
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.mm.ss").format(new Date()); 
 		String repName = "Test-Report_" + timeStamp + ".html";
 		extent= new ExtentReports();
@@ -36,6 +37,7 @@ public class TestListener extends TestListenerAdapter {
 		
 		spark.config().setDocumentTitle(" JOB Applications Framework ");
 		spark.config().setReportName("Hirist_Naukri_Insthyre");
+		
 		
 	}
 

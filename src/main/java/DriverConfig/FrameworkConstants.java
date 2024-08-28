@@ -13,8 +13,7 @@ public class FrameworkConstants {
 		return pass;
 	}
 	public static String getEmail() {
-		return email;
-	}
+		return email;}
 	public static String getAutomationtestengineer() {
 		return automationTestEngineer;
 	}
