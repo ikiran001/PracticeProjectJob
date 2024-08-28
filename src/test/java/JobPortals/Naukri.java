@@ -24,6 +24,8 @@ public class Naukri extends BaseClass{
 		fn.clickOnJobs();
 		fn.clickOncheckBox();
 		fn.clickOnApply();
+		
+		System.out.println("code chamge in master branch");
 
 		
 	}
