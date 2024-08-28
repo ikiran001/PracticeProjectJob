@@ -24,10 +24,14 @@ public class Naukri extends BaseClass{
 		fn.clickOnJobs();
 		fn.clickOncheckBox();
 		fn.clickOnApply();
+
 		
 		System.out.println("code chamge in master branch");
 
+
 		
+		System.out.println("code change in Local branch 0.1");
+
 	}
 	
 }
