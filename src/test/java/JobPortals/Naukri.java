@@ -25,7 +25,7 @@ public class Naukri extends BaseClass{
 		fn.clickOncheckBox();
 		fn.clickOnApply();
 
-		
+		System.out.println("Bye Bye world");
 	}
 	
 }
