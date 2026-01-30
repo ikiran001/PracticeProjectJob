@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="JobPortals.Naukri" time="373.622" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="webdriver.chrome.driver" value="/Users/kiran.jadhav/Documents/Shalini/PracticeProjectJob/./Drivers/chromedriver-mac-arm64/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/opt/homebrew/Cellar/maven/3.9.9/libexec/boot/plexus-classworlds-2.8.0.jar"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="maven.conf" value="/opt/homebrew/Cellar/maven/3.9.9/libexec/conf"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=JobPortals.Naukri test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="/opt/homebrew/Cellar/maven/3.9.9/libexec"/>
+    <property name="test" value="JobPortals.Naukri"/>
+    <property name="surefire.test.class.path" value="/Users/kiran.jadhav/Documents/Shalini/PracticeProjectJob/target/test-classes:/Users/kiran.jadhav/Documents/Shalini/PracticeProjectJob/target/classes:/Users/kiran.jadhav/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/kiran.jadhav/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/kiran.jadhav/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/kiran.jadhav/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/Users/kiran.jadhav/.m2/repository/org/apache/commons/commons-email/1.5/commons-email-1.5.jar:/Users/kiran.jadhav/.m2/repository/com/sun/mail/javax.mail/1.5.6/javax.mail-1.5.6.jar:/Users/kiran.jadhav/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/kiran.jadhav/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/kiran.jadhav/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/kiran.jadhav/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/kiran.jadhav/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/kiran.jadhav/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/kiran.jadhav/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/kiran.jadhav/.m2/repository/org/assertj/assertj-core/3.18.1/assertj-core-3.18.1.jar:/Users/kiran.jadhav/.m2/repository/org/seleniumhq/selenium/selenium-java/4.9.0/selenium-java-4.9.0.jar:/Users/kiran.jadhav/.m2/repository/org/seleniumhq/selenium/selenium-api/4.9.0/selenium-api-4.9.0.jar:/Users/kiran.jadhav/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.9.0/selenium-chrome-driver-4.9.0.jar:/Users/kiran.jadhav/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/kiran.jadhav/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/kiran.jadhav/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/kiran.jadhav/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/kiran.jadhav/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/kiran.jadhav/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/kiran.jadhav/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/kiran.jadhav/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/kiran.jadhav/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/kiran.jadhav/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/kiran.jadhav/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.9.0/selenium-chromium-driver-4.9.0.jar:/Users/kiran.jadhav/.m2/repository/org/seleniumhq/selenium/selenium-json/4.9.0/selenium-json-4.9.0.jar:/Users/kiran.jadhav/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.9.0/selenium-manager-4.9.0.jar:/Users/kiran.jadhav/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v110/4.9.0/selenium-devtools-v110-4.9.0.jar:/Users/kiran.jadhav/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v111/4.9.0/selenium-devtools-v111-4.9.0.jar:/Users/kiran.jadhav/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v112/4.9.0/selenium-devtools-v112-4.9.0.jar:/Users/kiran.jadhav/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.9.0/selenium-devtools-v85-4.9.0.jar:/Users/kiran.jadhav/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.9.0/selenium-edge-driver-4.9.0.jar:/Users/kiran.jadhav/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.9.0/selenium-firefox-driver-4.9.0.jar:/Users/kiran.jadhav/.m2/repository/org/seleniumhq/selenium/selenium-http/4.9.0/selenium-http-4.9.0.jar:/Users/kiran.jadhav/.m2/repository/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1.jar:/Users/kiran.jadhav/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.9.0/selenium-ie-driver-4.9.0.jar:/Users/kiran.jadhav/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.9.0/selenium-remote-driver-4.9.0.jar:/Users/kiran.jadhav/.m2/repository/io/netty/netty-buffer/4.1.91.Final/netty-buffer-4.1.91.Final.jar:/Users/kiran.jadhav/.m2/repository/io/netty/netty-codec-http/4.1.91.Final/netty-codec-http-4.1.91.Final.jar:/Users/kiran.jadhav/.m2/repository/io/netty/netty-codec/4.1.91.Final/netty-codec-4.1.91.Final.jar:/Users/kiran.jadhav/.m2/repository/io/netty/netty-handler/4.1.91.Final/netty-handler-4.1.91.Final.jar:/Users/kiran.jadhav/.m2/repository/io/netty/netty-common/4.1.91.Final/netty-common-4.1.91.Final.jar:/Users/kiran.jadhav/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.91.Final/netty-transport-classes-epoll-4.1.91.Final.jar:/Users/kiran.jadhav/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.91.Final/netty-transport-classes-kqueue-4.1.91.Final.jar:/Users/kiran.jadhav/.m2/repository/io/netty/netty-transport-native-epoll/4.1.91.Final/netty-transport-native-epoll-4.1.91.Final.jar:/Users/kiran.jadhav/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.91.Final/netty-transport-native-kqueue-4.1.91.Final.jar:/Users/kiran.jadhav/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.91.Final/netty-transport-native-unix-common-4.1.91.Final.jar:/Users/kiran.jadhav/.m2/repository/io/netty/netty-transport/4.1.91.Final/netty-transport-4.1.91.Final.jar:/Users/kiran.jadhav/.m2/repository/io/netty/netty-resolver/4.1.91.Final/netty-resolver-4.1.91.Final.jar:/Users/kiran.jadhav/.m2/repository/io/opentelemetry/opentelemetry-api/1.25.0/opentelemetry-api-1.25.0.jar:/Users/kiran.jadhav/.m2/repository/io/opentelemetry/opentelemetry-context/1.25.0/opentelemetry-context-1.25.0.jar:/Users/kiran.jadhav/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.25.0/opentelemetry-exporter-logging-1.25.0.jar:/Users/kiran.jadhav/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.25.0/opentelemetry-sdk-metrics-1.25.0.jar:/Users/kiran.jadhav/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.25.0-alpha/opentelemetry-sdk-logs-1.25.0-alpha.jar:/Users/kiran.jadhav/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.25.0-alpha/opentelemetry-api-logs-1.25.0-alpha.jar:/Users/kiran.jadhav/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.25.0-alpha/opentelemetry-api-events-1.25.0-alpha.jar:/Users/kiran.jadhav/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.25.0/opentelemetry-sdk-common-1.25.0.jar:/Users/kiran.jadhav/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.25.0/opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar:/Users/kiran.jadhav/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.25.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar:/Users/kiran.jadhav/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.25.0/opentelemetry-sdk-trace-1.25.0.jar:/Users/kiran.jadhav/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.25.0/opentelemetry-sdk-1.25.0.jar:/Users/kiran.jadhav/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/kiran.jadhav/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/kiran.jadhav/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/Users/kiran.jadhav/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/kiran.jadhav/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/kiran.jadhav/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/kiran.jadhav/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/kiran.jadhav/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/kiran.jadhav/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/kiran.jadhav/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/kiran.jadhav/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/kiran.jadhav/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/kiran.jadhav/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/kiran.jadhav/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.9.0/selenium-safari-driver-4.9.0.jar:/Users/kiran.jadhav/.m2/repository/org/seleniumhq/selenium/selenium-support/4.9.0/selenium-support-4.9.0.jar:/Users/kiran.jadhav/.m2/repository/org/apache/directory/studio/org.apache.commons.io/2.4/org.apache.commons.io-2.4.jar:/Users/kiran.jadhav/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/kiran.jadhav/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar:/Users/kiran.jadhav/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/kiran.jadhav/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/kiran.jadhav/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar:/Users/kiran.jadhav/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/kiran.jadhav/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/kiran.jadhav/.m2/repository/org/apache/poi/poi-scratchpad/3.9/poi-scratchpad-3.9.jar:/Users/kiran.jadhav/.m2/repository/org/apache/poi/poi/3.9/poi-3.9.jar:/Users/kiran.jadhav/.m2/repository/commons-codec/commons-codec/1.5/commons-codec-1.5.jar:/Users/kiran.jadhav/.m2/repository/joda-time/joda-time/2.10.8/joda-time-2.10.8.jar:/Users/kiran.jadhav/.m2/repository/org/apache/poi/ooxml-schemas/1.1/ooxml-schemas-1.1.jar:/Users/kiran.jadhav/.m2/repository/org/apache/poi/openxml4j/1.0-beta/openxml4j-1.0-beta.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/kiran.jadhav"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/kiran.jadhav/Documents/Shalini/PracticeProjectJob"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="Launcher"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.2"/>
+    <property name="user.name" value="kiran.jadhav"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.7.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/kiran.jadhav/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/vk/t6dkydn124z1wn65w54jrl_c0000gp/T/"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="/Users/kiran.jadhav/Documents/Shalini/PracticeProjectJob"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/kiran.jadhav/Documents/Shalini/PracticeProjectJob"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/kiran.jadhav/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23.0.2"/>
+    <property name="classworlds.conf" value="/opt/homebrew/Cellar/maven/3.9.9/libexec/bin/m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="library.jansi.path" value="/opt/homebrew/Cellar/maven/3.9.9/libexec/lib/jansi-native"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="applyOnNaukri" classname="JobPortals.Naukri" time="365.619">
+    <system-out><![CDATA[01-30-2026 15:05:21 InternalLoggerFactory.java DEBUG [main] logging.InternalLoggerFactory 89 - Using Log4J as the default logging framework
+01-30-2026 15:05:21 ResourceLeakDetector.java DEBUG [main] util.ResourceLeakDetector 129 - -Dio.netty.leakDetection.level: simple
+01-30-2026 15:05:21 ResourceLeakDetector.java DEBUG [main] util.ResourceLeakDetector 130 - -Dio.netty.leakDetection.targetRecords: 4
+01-30-2026 15:05:21 ResourceLeakDetectorFactory.java DEBUG [main] util.ResourceLeakDetectorFactory 196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4cc89246
+01-30-2026 15:05:21 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 496 - -Dio.netty.noUnsafe: false
+01-30-2026 15:05:21 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 1000 - Java version: 23
+01-30-2026 15:05:21 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 137 - sun.misc.Unsafe.theUnsafe: available
+01-30-2026 15:05:21 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 161 - sun.misc.Unsafe.copyMemory: available
+01-30-2026 15:05:21 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 193 - sun.misc.Unsafe.storeFence: available
+01-30-2026 15:05:21 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 236 - java.nio.Buffer.address: available
+01-30-2026 15:05:21 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 320 - direct buffer constructor: unavailable: java.nio.DirectByteBuffer.<init>(long,int)
+01-30-2026 15:05:21 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 385 - java.nio.Bits.unaligned: available, true
+01-30-2026 15:05:21 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 452 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @6efd0a6e
+01-30-2026 15:05:21 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 482 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+01-30-2026 15:05:21 PlatformDependent.java DEBUG [main] internal.PlatformDependent 1159 - sun.misc.Unsafe: available
+01-30-2026 15:05:21 PlatformDependent.java DEBUG [main] internal.PlatformDependent 1270 - maxDirectMemory: 4831838208 bytes (maybe)
+01-30-2026 15:05:21 PlatformDependent.java DEBUG [main] internal.PlatformDependent 1289 - -Dio.netty.tmpdir: /var/folders/vk/t6dkydn124z1wn65w54jrl_c0000gp/T (java.io.tmpdir)
+01-30-2026 15:05:21 PlatformDependent.java DEBUG [main] internal.PlatformDependent 1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+01-30-2026 15:05:21 PlatformDependent.java DEBUG [main] internal.PlatformDependent 1127 - Platform: MacOS
+01-30-2026 15:05:21 PlatformDependent.java DEBUG [main] internal.PlatformDependent 178 - -Dio.netty.maxDirectMemory: -1 bytes
+01-30-2026 15:05:21 PlatformDependent.java DEBUG [main] internal.PlatformDependent 185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+01-30-2026 15:05:21 CleanerJava9.java DEBUG [main] internal.CleanerJava9 71 - java.nio.ByteBuffer.cleaner(): available
+01-30-2026 15:05:21 PlatformDependent.java DEBUG [main] internal.PlatformDependent 205 - -Dio.netty.noPreferDirect: false
+01-30-2026 15:05:21 PlatformDependent.java DEBUG [main] internal.PlatformDependent 1010 - org.jctools-core.MpscChunkedArrayQueue: available
+01-30-2026 15:05:21 InternalThreadLocalMap.java DEBUG [main] internal.InternalThreadLocalMap 100 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+01-30-2026 15:05:21 InternalThreadLocalMap.java DEBUG [main] internal.InternalThreadLocalMap 101 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+01-30-2026 15:05:21 JdkSslContext.java DEBUG [main] ssl.JdkSslContext 83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+01-30-2026 15:05:21 JdkSslContext.java DEBUG [main] ssl.JdkSslContext 84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+01-30-2026 15:05:21 GlobalEventExecutor.java DEBUG [main] concurrent.GlobalEventExecutor 53 - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+01-30-2026 15:05:21 MultithreadEventLoopGroup.java DEBUG [main] channel.MultithreadEventLoopGroup 44 - -Dio.netty.eventLoopThreads: 24
+01-30-2026 15:05:21 NioEventLoop.java DEBUG [main] nio.NioEventLoop 110 - -Dio.netty.noKeySetOptimization: false
+01-30-2026 15:05:21 NioEventLoop.java DEBUG [main] nio.NioEventLoop 111 - -Dio.netty.selectorAutoRebuildThreshold: 512
+01-30-2026 15:05:21 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 157 - -Dio.netty.allocator.numHeapArenas: 24
+01-30-2026 15:05:21 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 158 - -Dio.netty.allocator.numDirectArenas: 24
+01-30-2026 15:05:21 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 160 - -Dio.netty.allocator.pageSize: 8192
+01-30-2026 15:05:21 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 165 - -Dio.netty.allocator.maxOrder: 9
+01-30-2026 15:05:21 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 169 - -Dio.netty.allocator.chunkSize: 4194304
+01-30-2026 15:05:21 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 170 - -Dio.netty.allocator.smallCacheSize: 256
+01-30-2026 15:05:21 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 171 - -Dio.netty.allocator.normalCacheSize: 64
+01-30-2026 15:05:21 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+01-30-2026 15:05:21 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+01-30-2026 15:05:21 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+01-30-2026 15:05:21 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 175 - -Dio.netty.allocator.useCacheForAllThreads: false
+01-30-2026 15:05:21 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+01-30-2026 15:05:21 ByteBufUtil.java DEBUG [main] buffer.ByteBufUtil 88 - -Dio.netty.allocator.type: pooled
+01-30-2026 15:05:21 ByteBufUtil.java DEBUG [main] buffer.ByteBufUtil 97 - -Dio.netty.threadLocalDirectBufferSize: 0
+01-30-2026 15:05:21 ByteBufUtil.java DEBUG [main] buffer.ByteBufUtil 100 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+01-30-2026 15:05:21 DefaultChannelId.java DEBUG [Forwarding newSession on session null to remote] channel.DefaultChannelId 79 - -Dio.netty.processId: 86621 (auto-detected)
+01-30-2026 15:05:21 NetUtil.java DEBUG [Forwarding newSession on session null to remote] util.NetUtil 148 - -Djava.net.preferIPv4Stack: false
+01-30-2026 15:05:21 NetUtil.java DEBUG [Forwarding newSession on session null to remote] util.NetUtil 149 - -Djava.net.preferIPv6Addresses: false
+01-30-2026 15:05:21 NetUtilInitializations.java DEBUG [Forwarding newSession on session null to remote] util.NetUtilInitializations 145 - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+01-30-2026 15:05:21 NetUtil.java DEBUG [Forwarding newSession on session null to remote] util.NetUtil 206 - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+01-30-2026 15:05:21 DefaultChannelId.java DEBUG [Forwarding newSession on session null to remote] channel.DefaultChannelId 101 - -Dio.netty.machineId: 02:42:81:ff:fe:b9:e1:ac (auto-detected)
+01-30-2026 15:05:21 AbstractByteBuf.java DEBUG [AsyncHttpClient-1-2] buffer.AbstractByteBuf 63 - -Dio.netty.buffer.checkAccessible: true
+01-30-2026 15:05:21 AbstractByteBuf.java DEBUG [AsyncHttpClient-1-2] buffer.AbstractByteBuf 64 - -Dio.netty.buffer.checkBounds: true
+01-30-2026 15:05:21 ResourceLeakDetectorFactory.java DEBUG [AsyncHttpClient-1-2] util.ResourceLeakDetectorFactory 196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@84daed1
+01-30-2026 15:05:21 Recycler.java DEBUG [AsyncHttpClient-1-2] util.Recycler 96 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+01-30-2026 15:05:21 Recycler.java DEBUG [AsyncHttpClient-1-2] util.Recycler 97 - -Dio.netty.recycler.ratio: 8
+01-30-2026 15:05:21 Recycler.java DEBUG [AsyncHttpClient-1-2] util.Recycler 98 - -Dio.netty.recycler.chunkSize: 32
+01-30-2026 15:05:21 Recycler.java DEBUG [AsyncHttpClient-1-2] util.Recycler 99 - -Dio.netty.recycler.blocking: false
+01-30-2026 15:05:21 Recycler.java DEBUG [AsyncHttpClient-1-2] util.Recycler 100 - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+01-30-2026 15:05:23 Brotli.java DEBUG [AsyncHttpClient-1-2] compression.Brotli 38 - brotli4j not in the classpath; Brotli support will be unavailable.
+01-30-2026 15:05:23 ThreadLocalRandom.java DEBUG [main] internal.ThreadLocalRandom 214 - -Dio.netty.initialSeedUniquifier: 0xb0d03116b3df89e1
+01-30-2026 15:05:23 BaseClass.java INFO  [main] DriverConfig.BaseClass 49 -  Opening Chrome Browser 
+01-30-2026 15:05:25 Naukri.java INFO  [main] DriverConfig.BaseClass 16 - https://www.naukri.com/nlogin/login <-- is Open
+01-30-2026 15:05:26 CommonMethods.java INFO  [main] DriverConfig.BaseClass 77 - kiran.jadhav1993@gmail.com is sent in the field
+01-30-2026 15:05:26 CommonMethods.java INFO  [main] DriverConfig.BaseClass 77 - 1221993 is sent in the field
+01-30-2026 15:05:26 CommonMethods.java INFO  [main] DriverConfig.BaseClass 48 -  Clicked on  Login button
+01-30-2026 15:06:26 CommonMethods.java INFO  [main] DriverConfig.BaseClass 48 -  Clicked on  Profile 
+01-30-2026 15:07:27 CommonMethods.java INFO  [main] DriverConfig.BaseClass 48 -  Clicked on  View & Update Profile
+01-30-2026 15:08:27 CommonMethods.java INFO  [main] DriverConfig.BaseClass 48 -  Clicked on  Edit icon
+01-30-2026 15:08:27 CommonMethods.java INFO  [main] DriverConfig.BaseClass 48 -  Clicked on  Save button
+01-30-2026 15:09:29 CommonMethods.java INFO  [main] DriverConfig.BaseClass 48 -  Clicked on  Job button
+01-30-2026 15:09:59 ForNaukri.java WARN  [main] DriverConfig.BaseClass 61 - No job checkboxes found to select.
+01-30-2026 15:11:29 ForNaukri.java WARN  [main] DriverConfig.BaseClass 40 - No Apply buttons found.
+]]></system-out>
+    <system-err><![CDATA[log4j:ERROR Could not find value for key log4j.appender.INFO
+log4j:ERROR Could not instantiate appender named "INFO".
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 144.0.7559.110 (cfecec24a8e1b3d5f3b58e52f11d1327ac1534c0-refs/branch-heads/7559@{#4009}) on port 30005
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 30005.
+Jan 30, 2026 3:05:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Jan 30, 2026 3:05:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.9.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>
