@@ -43,14 +43,24 @@ public class TestListener extends TestListenerAdapter {
 
 	@Override
 	public void onTestSuccess(ITestResult tr) {
-		test=extent.createTest(tr.getName()).addScreenCaptureFromBase64String(BaseClass.captureScreen());
+		String screenshot = BaseClass.captureScreen();
+		if (screenshot != null && !screenshot.isEmpty()) {
+			test = extent.createTest(tr.getName()).addScreenCaptureFromBase64String(screenshot);
+		} else {
+			test = extent.createTest(tr.getName());
+		}
 		test.log(Status.PASS, MarkupHelper.createLabel(tr.getName(), ExtentColor.GREEN));
 		
 	}
 
 	@Override
 	public void onTestFailure(ITestResult tr) {
-		test=extent.createTest(tr.getName()).addScreenCaptureFromBase64String(BaseClass.captureScreen());
+		String screenshot = BaseClass.captureScreen();
+		if (screenshot != null && !screenshot.isEmpty()) {
+			test = extent.createTest(tr.getName()).addScreenCaptureFromBase64String(screenshot);
+		} else {
+			test = extent.createTest(tr.getName());
+		}
 		test.log(Status.FAIL, MarkupHelper.createLabel(tr.getName(), ExtentColor.RED));
 		
 	}
@@ -62,7 +72,12 @@ public class TestListener extends TestListenerAdapter {
 
 	@Override
 	public void onTestSkipped(ITestResult tr) {
-		test=extent.createTest(tr.getName()).addScreenCaptureFromBase64String(BaseClass.captureScreen());
+		String screenshot = BaseClass.captureScreen();
+		if (screenshot != null && !screenshot.isEmpty()) {
+			test = extent.createTest(tr.getName()).addScreenCaptureFromBase64String(screenshot);
+		} else {
+			test = extent.createTest(tr.getName());
+		}
 		test.log(Status.SKIP, MarkupHelper.createLabel(tr.getName(), ExtentColor.ORANGE));
 	}
 

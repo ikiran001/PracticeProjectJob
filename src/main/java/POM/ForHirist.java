@@ -8,14 +8,17 @@ public class ForHirist extends CommonMethods{
 	
 
 	String folderName="Hirist";
-	By jobSeeker=By.xpath("//p[contains(text(),'Jobseeker Login')]");
-	By signIn=By.xpath("//span[contains(text(),'Sign In')]");
+	By jobSeeker=By.xpath("//*[self::a or self::button or self::span or self::p][contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'jobseeker') or contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'job seeker')]");
+	By signIn=By.xpath(
+			"//a[contains(@href,'login') or contains(@href,'signin') or contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'sign in') or contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'login')]"
+					+ " | //button[contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'sign in') or contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'login')]"
+					+ " | //span[contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'sign in') or contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'login')]");
 	By email=By.xpath("//input[@name='email']");
 	By passCode=By.xpath("//input[@name='password']");
-	By login=By.xpath("//span[text()='Login']");
-	By icon=By.xpath("//div[@class='icon-search-big search-icon']");
+	By login=By.xpath("//button[contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'login') or contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'log in')] | //span[contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'login') or contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'log in')]");
+	By icon=By.xpath("//div[contains(@class,'icon-search') or contains(@class,'search-icon') or contains(@class,'searchIcon')]");
 	By searchTab=By.xpath("(//input[@placeholder='Search Jobs'])[1]");
-	By bigSeacrhIcon=By.xpath("//button[@Type='submit']/div");
+	By bigSeacrhIcon=By.xpath("//button[@type='submit' or contains(@class,'search')]");
 	By checkBox=By.xpath("//div[@class='job-apply-checkbox']");
 	By apply=By.xpath("(//button[@type='button'])[1]");
 	By exp=By.xpath("(//a[contains(text(),'Any Exp. Level')])[1]");
@@ -24,6 +27,7 @@ public class ForHirist extends CommonMethods{
 	By selectLocation=By.xpath("//label[text()='Metros']");
 	By postPeriod=By.xpath("(//li[contains(text(),'Last Month')])[1]");
 	By postingCol=By.xpath("(//a[contains(text(),'Last 3 Months')])[1]");
+	By overlay=By.cssSelector(".modal-backdrop, .overlay, .cookie, .cookie-consent, .popup");
 	
 	
 	
@@ -46,9 +50,15 @@ public class ForHirist extends CommonMethods{
 		clickMethod(driver, selectLocation, folderName,"  Metro cities ");
 	}
 	public void clickOnJobSeeker() {
+		hideElementIfPresent(overlay);
 		clickMethod(driver, jobSeeker, folderName," Jobseeker");
 	}
 	public void clickOnSignIN() {
+		hideElementIfPresent(overlay);
+		if (!driver.findElements(email).isEmpty()) {
+			log.info(" Login form already visible, skipping Sign In click");
+			return;
+		}
 		clickMethod(driver, signIn, folderName," Sign In");
 	}
 	
@@ -68,6 +78,11 @@ public class ForHirist extends CommonMethods{
 	}
 	
 	public  void clickOnIcon() {
+		hideElementIfPresent(overlay);
+		if (!driver.findElements(searchTab).isEmpty()) {
+			log.info(" Search field already visible, skipping search icon click");
+			return;
+		}
 		clickMethod(driver, icon, folderName ,  "small search Icon");
 
 	}
@@ -78,6 +93,7 @@ public class ForHirist extends CommonMethods{
 	}
 	
 	public void sendInBigSearchIcon() {
+		hideElementIfPresent(overlay);
 		clickMethod(driver, bigSeacrhIcon, folderName," Big Search Icon");
 		scrollDown(8000);
 		
